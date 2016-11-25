@@ -30,6 +30,7 @@ while(1){
     calibrazione=ADC1->CALFACT;
     tensione =ADC1->DR;
     tensione2=( (tensione*3.3)/4096);
+    //metti la printf 
   }
 }
 }
